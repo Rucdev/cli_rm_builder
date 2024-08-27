@@ -1,4 +1,4 @@
 ---
 # vars file for run
 requirements:
-- black==19.3b0
+- black==22.3.0
