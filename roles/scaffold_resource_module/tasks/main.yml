@@ -43,7 +43,8 @@
   changed_when: False
 
 - name: Template each of the files
-  include: template.yml
+  include_tasks: 
+    file: template.yml
   with_items: "{{ resource_module_templates }}"
   loop_control:
     loop_var: template
